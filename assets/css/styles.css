@@ -1,3 +1,8 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
 .flex-container {
   display: flex;
   justify-content: center;
@@ -30,4 +35,12 @@ img {
   border-radius: 50%;
   border: solid rgb(192, 192, 192) 3px;
   margin-top: 5vh;
+}
+
+.title {
+  text-align: center;
+}
+
+span {
+  color: #9765de;
 }
