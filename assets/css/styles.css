@@ -19,4 +19,15 @@
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
+
+  border: solid rgb(192, 192, 192) 3px;
+  border-radius: 10px;
+}
+
+img {
+  height: 30vh;
+  width: 30vh;
+  border-radius: 50%;
+  border: solid rgb(192, 192, 192) 3px;
+  margin-top: 5vh;
 }
