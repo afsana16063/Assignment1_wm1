@@ -1,8 +1,14 @@
-/* .container {
-  background-color: white;
-  height: 60vh;
-  width: 50vh;
+.flex-container {
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+  /* flex-wrap: wrap; */
+  background-color: aliceblue;
+  width: 300px;
+}
 
+.flex-container {
   display: flex;
   justify-content: center;
-} */
+  flex-wrap: wrap;
+}
