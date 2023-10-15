@@ -1,14 +1,22 @@
 .flex-container {
-  /* display: flex; */
-  /* justify-content: center;
-  align-items: center; */
-  /* flex-wrap: wrap; */
-  background-color: aliceblue;
-  width: 300px;
-}
-
-.flex-container {
   display: flex;
   justify-content: center;
+  /* flex-wrap: wrap; */
+  /* align-content: center; */
+  align-items: center;
+  height: 100vh;
+  /* width: 100vh; */
+}
+
+/* .flex-container > * {
+  flex-basis: 150px;
+} */
+
+.centered-div {
+  background-color: white;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
   flex-wrap: wrap;
+  align-items: center;
 }
