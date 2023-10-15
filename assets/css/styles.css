@@ -24,6 +24,7 @@
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
+  width: 70vh;
 
   border: solid rgb(192, 192, 192) 3px;
   border-radius: 10px;
@@ -41,6 +42,20 @@ img {
   text-align: center;
 }
 
+.title > p {
+  margin-bottom: 3vh;
+  font-style: italic;
+}
+
 span {
   color: #9765de;
+}
+hr {
+  opacity: 50%;
+}
+.content-section {
+  width: 50vh;
+  margin-top: 3vh;
+  font-size: 12px;
+  text-align: center;
 }
