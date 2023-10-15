@@ -52,6 +52,7 @@ span {
 }
 hr {
   opacity: 50%;
+  margin-top: 2vh;
 }
 .content-section {
   width: 50vh;
@@ -76,4 +77,15 @@ hr {
   border: solid #9765de 1px;
   color: #9765de;
   background-color: white;
+  transition: 0.5s;
+}
+
+i {
+  margin-bottom: 5vh;
+  gap: 3vh;
+  padding: 2vh;
+}
+
+i:hover {
+  color: #9765de;
 }
